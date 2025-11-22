@@ -1,0 +1,31 @@
+[0m20:41:23.485888 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107caf760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108cceaf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108ccecd0>]}
+
+
+============================== 20:41:23.488779 | 55838d56-bd92-4fc6-8a78-1a88e6b73fb8 ==============================
+[0m20:41:23.488779 [info ] [MainThread]: Running with dbt=1.10.15
+[0m20:41:23.489113 [debug] [MainThread]: running dbt with arguments {'use_colors': 'True', 'cache_selected_only': 'False', 'version_check': 'True', 'quiet': 'False', 'empty': 'None', 'printer_width': '80', 'static_parser': 'True', 'log_cache_events': 'False', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'send_anonymous_usage_stats': 'True', 'log_format': 'default', 'partial_parse': 'True', 'indirect_selection': 'eager', 'no_print': 'None', 'target_path': 'None', 'profiles_dir': '/Users/praveenamudiyala/.dbt', 'introspect': 'True', 'invocation_command': 'dbt init gourmetfast', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'write_json': 'True', 'fail_fast': 'False', 'use_experimental_parser': 'False'}
+[0m20:41:23.499234 [info ] [MainThread]: Creating dbt configuration folder at /Users/praveenamudiyala/.dbt
+[0m20:41:23.500326 [debug] [MainThread]: Starter project path: /Users/praveenamudiyala/Library/Python/3.9/lib/python/site-packages/dbt/include/starter_project
+[0m20:41:23.504061 [info ] [MainThread]: 
+Your new dbt project "gourmetfast" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:41:23.504246 [info ] [MainThread]: Setting up your profile.
+[0m20:42:31.789471 [info ] [MainThread]: Profile gourmetfast written to /Users/praveenamudiyala/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m20:42:31.791388 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 68.351204, "process_in_blocks": "0", "process_kernel_time": 0.101655, "process_mem_max_rss": "97566720", "process_out_blocks": "0", "process_user_time": 0.792544}
+[0m20:42:31.791675 [debug] [MainThread]: Command `dbt init` succeeded at 20:42:31.791613 after 68.35 seconds
+[0m20:42:31.791892 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107caf760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108c6e5e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108c8d5b0>]}
+[0m20:42:31.792127 [debug] [MainThread]: Flushing usage events
+[0m20:42:32.206690 [debug] [MainThread]: An error was encountered while trying to flush usage events

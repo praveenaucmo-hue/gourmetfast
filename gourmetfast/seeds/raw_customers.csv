@@ -1,0 +1,54 @@
+customer_id,name,email,signup_date
+CUST001,Scott Williams,karenlopez@example.com,2024-08-23
+CUST002,Mark Johnson,jennifer56@example.org,2023-11-20
+CUST003,Heidi Anderson,davidsonmichelle@example.org,2025-07-28
+CUST004,Heidi Cox,timothy42@example.net,2023-10-18
+CUST005,Michael Williams,rhonda92@example.com,2024-03-23
+CUST006,Jesus Johnson,robertford@example.com,2024-08-16
+CUST007,Michael Williams,karen84@example.org,2025-07-16
+CUST008,Jennifer Miller,ashley88@example.org,2025-09-02
+CUST009,Michael Smith,greenjoseph@example.net,2024-04-12
+CUST010,Elizabeth Jones,shannonlopez@example.net,2024-05-18
+CUST011,Christopher Williams,thomaspaul@example.net,2024-01-22
+CUST012,Christopher Jones,michelletran@example.org,2024-04-17
+CUST013,Jennifer Miller,rhonda92@example.com,2025-08-12
+CUST014,Michael Smith,zimmermanmegan@example.net,2024-02-19
+CUST015,Michael Williams,greenjoseph@example.net,2025-06-25
+CUST016,Mark Johnson,robertford@example.com,2024-10-09
+CUST017,Elizabeth Jones,davidsonmichelle@example.org,2024-03-23
+CUST018,Scott Williams,zimmermanmegan@example.net,2024-01-22
+CUST019,Elizabeth Jones,thomaspaul@example.net,2025-07-16
+CUST020,Michael Williams,greenjoseph@example.net,2023-10-18
+CUST021,Christopher Williams,timothy42@example.net,2024-08-16
+CUST022,Heidi Anderson,davidsonmichelle@example.org,2024-04-12
+CUST023,Christopher Jones,shannonlopez@example.net,2025-09-02
+CUST024,Jennifer Miller,karenlopez@example.com,2024-03-23
+CUST025,Scott Williams,ashley88@example.org,2024-05-18
+CUST026,Michael Williams,robertford@example.com,2024-08-23
+CUST027,Heidi Anderson,michelletran@example.org,2025-07-28
+CUST028,Mark Johnson,jennifer56@example.org,2024-04-17
+CUST029,Heidi Cox,thomaspaul@example.net,2024-02-19
+CUST030,Jesus Johnson,zimmermanmegan@example.net,2023-11-20
+CUST031,Jennifer Miller,greenjoseph@example.net,2025-06-25
+CUST032,Christopher Williams,rhonda92@example.com,2024-10-09
+CUST033,Scott Williams,karen84@example.org,2024-01-22
+CUST034,Mark Johnson,timothy42@example.net,2024-04-12
+CUST035,Elizabeth Jones,davidsonmichelle@example.org,2025-08-12
+CUST036,Michael Smith,jennifer56@example.org,2024-03-23
+CUST037,Heidi Cox,shannonlopez@example.net,2025-07-16
+CUST038,Heidi Anderson,thomaspaul@example.net,2024-08-16
+CUST039,Jennifer Miller,ashley88@example.org,2024-02-19
+CUST040,Michael Williams,karenlopez@example.com,2023-10-18
+CUST041,Jesus Johnson,robertford@example.com,2024-05-18
+CUST042,Christopher Jones,zimmermanmegan@example.net,2025-06-25
+CUST043,Scott Williams,michelletran@example.org,2024-08-23
+CUST044,Michael Smith,greenjoseph@example.net,2025-09-02
+CUST045,Christopher Williams,timothy42@example.net,2024-10-09
+CUST046,Heidi Anderson,rhonda92@example.com,2023-11-20
+CUST047,Elizabeth Jones,davidsonmichelle@example.org,2024-04-17
+CUST048,Mark Johnson,karen84@example.org,2025-07-28
+CUST049,Heidi Cox,shannonlopez@example.net,2024-01-22
+CUST050,Michael Williams,jennifer56@example.org,2024-04-12
+CUST015,Michael Williams Jr,greenjoseph@example.net,2025-06-25
+CUST028,Mark Johnson II,jennifer56@example.org,2024-04-17
+CUST041,Jesus Johnson Sr,robertford@example.com,2024-05-18

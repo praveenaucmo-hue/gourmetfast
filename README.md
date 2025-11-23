@@ -18,6 +18,21 @@ pip install dbt-core dbt-sqlite
 dbt seed
 ```
 
+### Run only staging layer
+```bash
+dbt run --select staging+
+```
+
+### Run only core models
+```bash
+dbt run --select core+
+```
+
+### Run specific tests
+```bash
+dbt test --select fct_orders
+```
+
 ### Run dbt models
 ```bash
 dbt run

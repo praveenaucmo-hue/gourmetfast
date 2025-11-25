@@ -8,7 +8,7 @@ models:
     columns:
       - name: customer_id
         tests: [not_null, unique]
-      - name: email
+      - name: customer_email
         tests: [not_null]
 
   - name: stg_products
@@ -57,4 +57,3 @@ models:
         tests: [not_null]
       - name: order_timestamp
         tests: [not_null]
-

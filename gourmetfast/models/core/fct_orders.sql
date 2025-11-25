@@ -1,24 +1,25 @@
 {{ config(
     materialized = 'incremental',
-    unique_key = ['order_id', 'product_id']
+    unique_key = 'order_id'
 ) }}
 
 with src as (
-    select
-        order_id,
-        customer_id,
-        product_id,
-        order_timestamp,
-        order_date,
-        quantity,
-        status
+
+    select *
     from {{ ref('stg_orders') }}
-    {% if is_incremental() %}
-      where order_timestamp > (
-          select coalesce(max(order_timestamp), '1900-01-01')
-          from {{ this }}
+
+    {% if is_incremental() and execute %}
+      where datetime(order_timestamp) > (
+          select datetime(
+              coalesce(max_ts, '1900-01-01')
+          )
+          from (
+              select max(order_timestamp) as max_ts
+              from {{ this }}
+          )
       )
     {% endif %}
+
 ),
 
 joined as (
@@ -42,4 +43,4 @@ joined as (
         on o.product_id = p.product_id
 )
 
-select * from joined
+select * from joined;

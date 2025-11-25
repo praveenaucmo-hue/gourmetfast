@@ -4,7 +4,7 @@ with src as (
     select
         customer_id,
         customer_name,
-        email,
+        customer_email,
         signup_date
     from {{ ref('stg_customers') }}
     {% if is_incremental() %}
@@ -18,6 +18,6 @@ with src as (
 select
     customer_id,
     customer_name,
-    email,
+    customer_email,
     signup_date
 from src
